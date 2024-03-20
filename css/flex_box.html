@@ -1,0 +1,139 @@
+<!-- it it flexbox it is used on in dimentional easy to design severral to efficient design -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .container{
+            border: 2px solid black;
+            /* diplay flex is change top to button change in right to left */
+            display: flex;  
+
+            /* change the direction  direction flex */
+            /* flex-direction: row-reverse;
+            flex-direction: column; */
+            flex-direction: row;
+            /* flex-direction: column-reverse; */
+            flex-wrap: row wrap;
+
+            /* justify-content: center; */
+            /* justify-content: stretch; */
+            /* width: 550px;
+            height: 200px; */
+            align-items: flex-start;
+            /* flex-grow: 2;
+            flex-shrink: 4;
+            flex-basis: 200px;
+            flex: 0 1 auto;  */
+
+            /* justify-content: space-between; */
+            align-content: flex-start; 
+            align-content: center;
+            align-content: space-evenly;
+            flex-basis: 0 1 auto;  
+            flex: 10em; flex-basis: 200px;
+            /* box sizing and body box  home work */
+            
+            align-self: auto;
+            /* flex: 2 2; flex: grow; and flex-shrink: ; if there is two valuse that time
+             */ 
+            
+             /* default value of align central 
+                The default value of the CSS align-items property is "stretch". */
+
+
+        }
+
+        .flex-item{
+            color: white;
+            /* font-size: 1.5rcap; */
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .item1{
+            background-color: red;
+            order: 4;
+        } 
+
+        .item2{
+            background-color: green;
+            /* order will show last at the container */
+
+            order: 1;
+        }
+
+        .item3{
+            background-color: yellow;
+            order: 1;
+        }
+
+        .item4{
+            background-color: black;
+
+            /* flex-grow: 4; */
+        }
+        .item5{
+            background-color: blue;
+            /* flex grow is used to increase growth of width */
+            /* flex-grow: 5;   */
+
+        }
+
+        .item6{
+            background-color: violet;
+        }
+
+        .item7{
+            background-color: palegoldenrod;
+        }
+
+        .item8{
+            background-color: palegreen;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex-item item1">item1</div>
+        <div class="flex-item item2">item2</div>
+
+        <div class="flex-item item3">item3</div>
+        <div class="flex-item item4">item4</div>
+        <div class="flex-item item5">item5</div>
+        <div class="flex-item item6">item6</div>
+        <div class="flex-item item7">item7</div>
+        <div class="flex-item item8">item8</div>
+    </div>
+    <!-- flex container properties -->
+
+    <!-- 1.disply 
+    2.flex-direction
+    3.flex-wrap
+    4.flex-flow
+    5.justifly-content 
+    6.align-items
+    7.align-content  -->  
+
+    <!-- flex item properties --> 
+
+    <!-- 1.order
+    2.flex-grow
+    3.flex-basic
+    4.flex-basic
+    5.flex
+    6.align-self -->
+    
+    
+</body>
+</html>

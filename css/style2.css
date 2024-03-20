@@ -1,0 +1,28 @@
+body{
+    background-image: url(aaaa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.spread{
+    letter-spacing: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.baseline{
+    vertical-align: baseline;
+}
+
+.list {
+    position: absolute; /* Absolute positioning for the list */
+    top: 50%; /* Move the list 50% down from the top of the container */
+    left: 50%; /* Move the list 50% from the left of the container */
+    transform: translate(-50%, -50%); Center the list perfectly
+}
+
+.sample{
+    background-image: ;
+}

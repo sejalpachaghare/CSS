@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <style>
+
+        header {
+            padding: 40px; 
+            display: flex; 
+            align-items: center;
+        }
+        
+        .logo {
+            width: 100px; 
+            height: auto; 
+            margin-right: auto; 
+        }
+        
+        nav {
+            margin-left: auto; 
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0; 
+        }
+        
+        nav ul li {
+            display: inline; 
+            margin-right: 20px; 
+        }
+        
+        nav ul li a {
+            text-decoration: none; 
+        }
+
+        .container {
+            display: flex;
+            width: 100%; 
+            justify-content: space-between; 
+            padding: 20px; 
+        }
+
+        .box {
+            width: 45rem; 
+            height: 15rem; 
+            padding: 50px; 
+            margin: 0; 
+        } 
+
+        
+        footer {
+            padding: 50px; 
+            text-align: center; 
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="one.webp" alt="Logo" width="100">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="box">
+        Box Left
+    </div>
+    <div class="box">
+        Box Middle
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 Your Website Name
+</footer>
+
+</body>
+</html>
+

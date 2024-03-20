@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            background-color: red;
+            /* animation: name duraration timing-function delay iteration-count direction iterattion  ; */
+        
+            animation-name: myFristAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            /* animation-timing-function: 5s; */
+            /* animation-delay: ; */
+            /* animation-iteration-count: ; */
+
+            /* transform: rotate(70deg); */
+            /* transform: skewX(2,3); */
+            /* postitve value- clockwise direction  */
+            /* negat val -anti clockwise direction */
+            
+            
+
+        }
+
+        /* defining animation rule  */
+
+        @keyframes myFristAnimation{
+            /* from{ */
+                /* staring css */
+                /* top: 10px; */
+                /* background-color: blue; */
+            /* } */
+            /* to{ */
+                /* ending style */
+                /* top: 500px; */
+                /* background-color: green; */
+            /* } */
+            0%{
+                background-color: brown;
+
+            }
+            50%{
+                background-color: gray;
+            }
+            100%{
+                background-color: lightblue;
+            }
+
+        }
+
+        .box:hover {
+            /* transform: rotate(150deg); */
+            /* transform: skew(0.5deg);  */
+            /* transform: translateX(50px); */
+
+            width: 300px;
+            height: 500px;
+            /* background-color: green; */
+            transition-property: all;
+            transition-duration: 10s;
+            /* transition-timing-function: ease-in;  */
+            transition-timing-function: linear;
+            transition-delay: 5s;
+
+            /*  transition : property duration timingfunction delay */
+            /* transition: all 10s linear 5sec; this is short hand property*/ 
+
+        }
+
+        .transition{
+            transition-property: width;
+            transition-duration: 5s;
+            transition-timing-function: ease-in;  
+            /*  ease work like  slow, fast and end slow  */
+        }
+
+        /* hover is used to pseudo selector */
+
+    </style>
+</head>
+<body>
+    <!-- transforma -->
+    <!-- roatate,scale,translate(diff pos, skew) --> 
+
+    <!-- transition -->
+
+
+    <!-- animation -->
+    <!-- we can change html element trasition from one style to another stlye -->
+
+    <div class="container">
+        <div class="box"> box transition</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,330 @@
+.navbar {
+    background-color: #7ae692;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    padding: 10px;
+}
+
+.navbar-right {
+    padding: 10px;
+}
+
+.navbar-center ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-center ul li {
+    margin-right: 20px;
+}
+
+.navbar-center ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar-center ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-center ul li a:hover {
+    color: #ddd;
+}
+
+.signin-button {
+    background-color: #c8ddc8;
+    color: rgb(27, 26, 26);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin-button:hover {
+    background-color: #45a049;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.box {
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    padding: 20px;
+    height: 250px;
+    box-sizing: border-box; 
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.sub-box1{
+    background-color: #d36363;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top:20px;
+    left:35%;
+    border: 2px solid rgb(11, 112, 31);
+    border-radius: 10px;
+}
+.sub-box2{
+    background-color: #d36363;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top:100px;
+    left:35%;
+    border: 2px solid rgb(11, 112, 31);
+    border-radius: 10px;
+}
+.sub-box3{
+    background-color: #d36363;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top:180px;
+    left:35%;
+    border: 2px solid rgb(11, 112, 31);
+    border-radius: 10px;
+}
+.sub-box6{
+    background-color: #d36363;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    left:20px;
+    top:100px;
+    border: 2px solid rgb(11, 112, 31);
+    border-radius: 10px;
+}
+.sub-box9{
+     background-color: #d36363;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    right:30px;
+    top:100px;
+    border: 2px solid rgb(11, 112, 31);
+    border-radius: 10px;
+
+}
+.sub-box14{
+    background-color: #d36363;
+   margin-bottom: 10px;
+   padding: 10px;
+   width: 50px;
+   height: 40px;
+   position: absolute;
+   left:40%;
+   top:140px;
+   border: 2px solid rgb(11, 112, 31);
+   border-radius: 10px;
+
+}
+.sub-box15{
+    background-color: #d36363;
+   margin-bottom: 10px;
+   padding: 10px;
+   width: 50px;
+   height: 40px;
+   position: absolute;
+   left:35%;
+   top:180px;
+   border: 2px solid rgb(11, 112, 31);
+   border-radius: 10px;
+
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color:#beddda;
+
+    justify-content: space-between;
+}
+
+
+.bx{
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* border: 2px solid blue; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container1 {
+    /* width: 100%;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#beddda;
+}
+
+.bx1 {
+    width: 350px;
+    padding: 10px;
+    margin:50px 10px;
+    /* border: 2px solid blue; */
+}
+
+.scroll-box {
+    height: 200px; /* Set fixed height for scroll box */
+    overflow-y: auto; /* Enable vertical scrollbar */
+    border:1px solid red;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 50px; /* Adjust as needed */
+    left: 50px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #0f0f0f;
+    width: 50px;
+    height: 40px;
+}
+.para{
+text-align: center;
+margin-top: 0%;
+}
+
+.big{
+    width: 100%;
+    height: auto;
+    /* border:1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+background-color: #c8ddc8;
+}
+.forheading{
+    width: 100%;
+    height: 600px;
+    /* border:1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.forheading H1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.item1{
+    width: 80px;
+    height: 80px;
+    background-color: #beddda;
+    border:4px solid rgb(38, 166, 216);
+    border-radius: 10px;
+    margin:20px 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 80px;
+    height: 80px;
+    background-color: #beddda;
+    border:4px solid rgb(38, 166, 216);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spacebetween{
+    width:100% ;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:60px;
+}
+.long{
+    width: 100%;
+    height: auto;
+    border:2px solid red;
+    display: flex;
+    gap:25px;
+    padding:20px 0%;
+    margin:30px 0%;
+}
+.itemlong{
+    width: 80px;
+    height: 80px;
+    background-color: #beddda;
+    border:4px solid rgb(38, 166, 216);
+    border-radius: 10px;
+    flex-grow: 1;
+}
+.spacearound{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:50px 250px ;
+}
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer-nav ul li a {
+    display: block;
+    width: 30px;
+    height: 30px; 
+  }
+  
+  .footer-nav ul li a img {
+    width: 100%;
+    height: auto;
+  }
+  

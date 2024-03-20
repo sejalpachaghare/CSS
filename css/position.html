@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position Property</title>
+
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+        }
+
+        .container{
+            /* position: relative; */
+            padding: 50px;
+            margin:20px;
+            border: 2px solid black;
+        }
+
+        .items{
+            width: 100px;
+            height: 100px;
+        }
+
+        .item1{
+            background-color: red;
+            position: sticky;
+            top:100px;
+            left:200px;
+
+
+        }
+
+        .item1::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+
+        .item1::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 100px;
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+
+        .item2{
+            background-color: yellow;
+            /* position: relative; */
+            /* z-index: 1; */
+        }
+
+        .item3{
+            background-color: blue;
+        }
+
+        .item4{
+            background-color: green;
+        }
+
+    </style>
+
+    <!-- Sticky = relative + fixed -->
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="items item1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, distinctio!</div>
+        <div class="items item2"></div>
+        <div class="items item3"></div>
+        <div class="items item4"></div>
+    </div>
+
+    <!-- Position Property -->
+
+    <!-- static
+    relative
+    absolute
+    fixed
+    sticky -->
+
+    <!-- top
+    right
+    bottom
+    left
+    z-index -->
+    
+
+</body>
+</html>

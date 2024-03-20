@@ -1,0 +1,65 @@
+/* external style sheet */
+
+p {
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+/* .classname {
+
+}
+
+#idname {
+
+} */ 
+
+/* element selector */
+
+
+/* id selector */
+/* #main-header{
+    border-bottom: 1px solid;
+}
+
+/* class selector */
+/* .btn {
+    background-color: red;
+    color: white;
+} */
+
+/* .btn {
+    background: red;
+    color: white;
+    margin: 100px;
+    padding: 100px; 
+} */
+
+
+/* universal selector */ 
+
+/* group selector */
+/* p{
+    color: red;
+}
+h2{
+    color: red;
+} */
+
+p,h2{
+    color: red;
+}
+
+/* margine is a short hand property */
+
+button{
+    margin: 100px,200px,300px;
+}
+
+/* top right button left  */
+/* clockwise  */  
+
+/* normalized css */
+/* reset css */  

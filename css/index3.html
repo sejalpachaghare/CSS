@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div{
+            background-color: blue;
+            overflow-y: hidden;
+            margin: 5px;
+            width: 100px;
+            height: 100px;  
+            /* scrollbar-width: 10px;    */
+            overflow-y: scroll;
+        } 
+
+        .inline-menu {
+            margin: 0;
+            padding: 0;
+        } 
+
+        .inline-menu li {
+            margin: 0;
+            display: inline-block;
+            margin-right: 10px; /* Adds space between menu items */
+        }
+        /* Block-level Menu */
+         .block-menu {
+
+            margin: 0;
+            padding: 0;
+        } 
+
+         .block-menu li {
+            display: block-block;
+            margin-bottom: 10px; /* Adds space between menu items */
+    
+         }
+         
+         h1{
+            float: right;
+         }
+        
+    </style>
+</head>
+<body>
+    <!-- <ul>
+        <li>Homw</li>
+        <li>about</li>
+        <li>Projects</li>
+        <li>Skills</li>  
+    </ul> -->   
+
+    <ul class="inline-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      
+      <br>
+      
+      <!-- Block-level Menu -->
+      <ul class="block-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Minus quo sint nostrum nihil illum possimus corrupti vitae excepturi, dolor numquam!.</p>
+    </div>
+
+    <div>
+        <h2>CSS</h2>  
+    </div>
+
+    <div>
+        <h1>float</h1>
+        <img src="" height="200px" width="200">
+        <p>float is a css property that allows to float to the left or right of its container</p>
+    </div>
+</body>
+</html>

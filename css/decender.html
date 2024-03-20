@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* decender selector */
+        /* p em {
+            color: yellow;
+        }
+        p em span {
+            color: pink;
+        }
+         .app div .op h1 {
+            color: brown;
+        } */  
+
+        .app>p {
+            color: red;
+        }
+
+        [type=text]{
+            padding: 10px;
+        }
+
+        div p+h3{
+            color: yellowgreen;
+        }
+
+        p{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+    </style>   
+
+</head>
+<body>
+    <!-- <div class="app">
+        <p>i love <em>CSS or <span>Javascript</span> and</em></p> 
+        <em>HTML</em>
+
+    </div>
+
+    <div>
+        <span>REact</span>
+    </div>
+
+    <div class="app">
+        <div> 
+            <div class="op">i am nested div<h1>big heaeding</h1></div>
+        </div>
+    </div> -->
+
+    <!-- child selector -->
+    <!-- <div class="app"> 
+        <p>I love REact</p> 
+
+        <p>
+            <span>I love css</span>
+        </p>
+
+        <div>
+            <p>I love Javascript</p>
+        </div>
+
+    </div>  -->  
+
+    <!-- attribute selector -->
+    <input type="text">
+    <input type="password">
+    <input type="text"> 
+    <input type="email">   
+    
+    <!-- pseudo selector -->
+
+    <!-- sibing selector -->
+    <div>
+        <p>Paral</p>
+        <h3>This is a text</h3>
+
+        <p>parel thia sisd</p>
+        <h3>this</h3>   
+
+        <p>para</p>
+        <h3>this is heading three</h3>
+    </div>  
+
+    <!-- div parent -->
+    <!-- p,h3 child of div -->     
+</body>
+</html>

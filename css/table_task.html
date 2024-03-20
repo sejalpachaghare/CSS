@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgb(53, 63, 66);
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+
+        }
+
+        .table-container {
+          margin: 0 auto; /* Center the container horizontally */
+          width: 80%; /* Set width of the container */
+          margin-left: 20px; /* Add space on the left */
+          margin-right: 20px; /* Add space on the right */
+        }
+
+        table {
+          width: 100%; /* Make table fill the container width */
+          border-collapse: collapse; /* Collapse table borders */
+        }
+
+        th, td {
+          border: 1px solid #000; /* Add borders to cells */
+          padding: 20px; /* Add padding to cells */
+          text-align: center; /* Center-align content */
+          width: 50px;
+          height: 50px;
+        }  
+
+        .red_text{
+            color: tomato;
+        }
+
+        .blue_text{
+            color: blueviolet;
+        }
+        .interger{
+            color: black;
+        }
+
+        tbody tr:nth-child(odd) {
+        background-color: #f2f2f2; /* Light gray for odd rows */
+        }
+        tbody tr:nth-child(even) {
+        background-color: #ddd; /* Dark gray for even rows */
+        }
+      </style>
+
+</head>
+<body>
+    <h1 style="text-align:center; color:rgb(143, 185, 103);">Table</h1>
+
+    <table class="table-container">
+        <thead>
+            <tr>
+                <th rowspan="4" class="blue_text">Sites</th>
+                <th rowspan="4" class="blue_text">Views</th>
+                <th rowspan="4" class="blue_text">Click</th>
+                <th rowspan="4" class="blue_text">Average</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="red_text">Google</td>
+                <td class="interger">9518</td>
+                <td class="interger">6369</td>
+                <td class="interger">01:32:50</td>
+            </tr>
+
+            <tr>
+                <td class="red_text">Twitter</td>
+                <td class="interger">7326</td>
+                <td class="interger">10437</td>
+                <td class="interger">00:51:22</td>
+            </tr>
+
+            <tr>
+                <td class="red_text">Amazon</td>
+                <td class="interger">4162</td>
+                <td class="interger">5327</td>
+                <td class="interger">00:24:34</td>
+            </tr>
+
+            <tr>
+                <td class="red_text">Linkedin</td>
+                <td class="interger">3654</td>
+                <td class="interger">2961</td>
+                <td class="interger">00:12:10</td>
+            </tr>
+
+            <tr>
+                <td class="red_text">CodePen</td>
+                <td class="interger">2002</td>
+                <td class="interger">4135</td>
+                <td class="interger">00:46:19</td>
+            </tr>
+
+            <tr>
+                <td class="red_text">Github</td>
+                <td class="interger">4623</td>
+                <td class="interger">3486</td>
+                <td class="interger">00:31:52</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

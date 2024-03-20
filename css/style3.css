@@ -1,0 +1,26 @@
+.menu-container {
+    max-width: 600px; /* Adjust the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding around the container */
+}
+
+.menu-item {
+    background-color: #f9f9f9; /* Background color of each menu item */
+    padding: 10px; /* Add padding around each menu item */
+    margin-bottom: 20px; /* Add some space between each menu item */
+}
+
+.menu-item h2 {
+    margin-top: 0; /* Remove default margin for heading */
+}
+
+.menu-item span {
+    float: right; /* Align price to the right */
+    font-weight: bold; /* Make the price bold */
+}
+
+body{
+    background-image: url(aaaa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
